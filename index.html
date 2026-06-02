@@ -170,7 +170,7 @@
   }
 
   /* --- immagini --- */
-  .m-foto{width:100%;height:200px;object-fit:cover;border-radius:12px;margin-bottom:14px;display:block;background:#eee}
+  .m-foto{width:100%;height:300px;object-fit:contain;border-radius:12px;margin-bottom:14px;display:block;background:linear-gradient(160deg,#f3eefa,#e9e1f5)}
   .m-credit{font-size:.7rem;color:#8a7aa0;margin-top:8px;font-style:italic;line-height:1.4}
   .persona .ritratto{width:100%;height:175px;object-fit:cover;object-position:top center;display:block;background:#ece6f5}
   .astori-foto{margin:22px auto 0;max-width:380px;width:100%;border-radius:14px;border:3px solid var(--oro);box-shadow:var(--ombra);display:block}
@@ -193,13 +193,29 @@
   .origine-testo blockquote{border-left:4px solid var(--oro);padding:6px 0 6px 18px;margin:16px 0 0;font-style:italic;color:var(--viola);font-size:1.05rem}
   .origine-testo b{color:var(--viola)}
   @media(max-width:760px){.origini .origine{grid-template-columns:1fr;gap:18px}.origini .origine.inv .origine-foto{order:0}}
+  /* --- sezione Era Commisso / Barone --- */
+  .proprieta-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+  @media(max-width:720px){.proprieta-grid{grid-template-columns:1fr}}
+  .prop-card{background:#fff;border-radius:18px;overflow:hidden;box-shadow:var(--ombra);display:flex;flex-direction:column}
+  .prop-foto{height:300px;background:#ece6f5}
+  .prop-foto img{width:100%;height:100%;object-fit:cover;object-position:top center;display:block}
+  .prop-card.memoria{background:linear-gradient(160deg,#fff,#F6EFFF)}
+  .prop-foto.memoria-banner{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;background:linear-gradient(140deg,var(--viola-scuro),var(--viola))}
+  .prop-foto.memoria-banner .cuore{font-size:3.6rem;filter:drop-shadow(0 4px 10px rgba(0,0,0,.3))}
+  .prop-foto.memoria-banner .memoria-txt{color:var(--oro-chiaro);font-family:'Cinzel',serif;font-weight:700;letter-spacing:3px;text-transform:uppercase;font-size:.78rem}
+  .prop-body{padding:22px 24px}
+  .prop-ruolo{color:var(--oro);font-weight:800;font-size:.73rem;text-transform:uppercase;letter-spacing:1px}
+  .prop-card.memoria .prop-ruolo{color:var(--viola-chiaro)}
+  .prop-body h3{font-family:'Cinzel',serif;color:var(--viola-scuro);font-size:1.5rem;margin:4px 0 10px}
+  .prop-body p{font-size:.92rem;color:#3a2a4e;margin-bottom:10px}
+  .prop-body b{color:var(--viola)}
 </style>
 </head>
 <body>
 
 <nav>
   <a href="#origini">Origini</a><a href="#storia">Cronostoria</a><a href="#trofei">Trofei</a><a href="#xi">Undici Leggende</a>
-  <a href="#campioni">Campioni</a><a href="#astori">Astori</a><a href="#dirigenza">Dirigenza</a><a href="#tifosi">Per i Tifosi</a>
+  <a href="#campioni">Campioni</a><a href="#astori">Astori</a><a href="#proprieta">Era Commisso</a><a href="#dirigenza">Dirigenza</a><a href="#tifosi">Per i Tifosi</a>
 </nav>
 
 <header class="hero">
@@ -449,6 +465,37 @@
     Un esempio di uomo e di sportivo, vivo nel cuore di Firenze e di tutto il calcio.</p>
     <span class="lente" style="color:var(--oro-chiaro)">🔎 La sua storia</span>
     <img class="astori-foto" src="assets/img/astori.jpg" alt="Tributo Ciao Capitano ad Astori" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'">
+  </div>
+</section>
+
+<!-- ============ ERA COMMISSO ============ -->
+<section id="proprieta">
+  <div class="sezione-titolo"><div class="kick">Chi guida la Viola di oggi</div><h2>L'Era Commisso</h2></div>
+  <div class="proprieta-grid">
+
+    <article class="prop-card">
+      <div class="prop-foto"><img src="assets/img/p-commisso.jpg" alt="Rocco Commisso" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.style.display='none'"></div>
+      <div class="prop-body">
+        <div class="prop-ruolo">⚜ Il Presidente · dal 2019</div>
+        <h3>Rocco Commisso</h3>
+        <p>Imprenditore <b>italo-americano</b>, fondatore e CEO di <b>Mediacom</b>, nato in <b>Calabria</b> ed emigrato negli Stati Uniti da bambino. Nel <b>giugno 2019</b> rileva la Fiorentina dai Della Valle, aprendo una nuova era.</p>
+        <p>Visionario e appassionato, ha voluto e costruito il <b>Viola Park</b>, uno dei centri sportivi più moderni d'Europa, e ha riportato la Viola a giocarsi due <b>finali europee</b> di Conference League. Il suo sogno dichiarato: riportare Firenze ai vertici del calcio.</p>
+      </div>
+    </article>
+
+    <article class="prop-card memoria">
+      <div class="prop-foto memoria-banner">
+        <span class="cuore">🖤</span>
+        <span class="memoria-txt">In memoria</span>
+      </div>
+      <div class="prop-body">
+        <div class="prop-ruolo">Il Direttore Generale · 2019–2024</div>
+        <h3>Joe Barone</h3>
+        <p>Anima operativa e cuore pulsante del club nell'era Commisso. Siciliano di <b>Pozzallo</b> ed emigrato negli USA, fu il braccio destro del presidente: l'uomo che trasformava i progetti in realtà — su tutti il <b>Viola Park</b>.</p>
+        <p>Si è spento il <b>19 marzo 2024</b>, alla vigilia del suo compleanno, dopo un improvviso malore. Firenze e tutta la Viola lo ricordano con affetto e gratitudine: <i>«Per sempre con noi».</i></p>
+      </div>
+    </article>
+
   </div>
 </section>
 
