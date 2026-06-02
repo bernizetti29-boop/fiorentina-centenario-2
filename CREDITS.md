@@ -98,5 +98,9 @@ Tutte le immagini provengono da **Wikimedia Commons** con licenze libere (Creati
   Autore: Horemhat (Wikimedia Commons) — Licenza: CC BY-SA 4.0  
   https://commons.wikimedia.org/wiki/File:Firenze_giglio_gotico_antico.svg
 
+- **Fiorentina 1931-1932 (prima formazione in Serie A)**  
+  Autore: Autore sconosciuto — Licenza: Pubblico Dominio  
+  https://commons.wikimedia.org/wiki/File:Fiorentina_1931-1932.jpg
+
 
 _Pagina celebrativa amatoriale per il centenario dell'ACF Fiorentina (1926–2026). I marchi ACF Fiorentina e il Giglio appartengono ai legittimi proprietari._

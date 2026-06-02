@@ -180,12 +180,12 @@
   .crediti-lista{font-size:.72rem;opacity:.85;line-height:1.7;padding:4px 0 14px}
   .crediti-lista a{color:var(--oro-chiaro)}
   /* --- sezione Le Origini --- */
-  .origini .origine{display:grid;grid-template-columns:.85fr 1.15fr;gap:34px;align-items:center;margin-bottom:50px}
+  .origini .origine{display:grid;grid-template-columns:.9fr 1.1fr;gap:34px;align-items:stretch;margin-bottom:50px}
   .origini .origine.inv .origine-foto{order:2}
   .origine-foto{position:relative}
-  .origine-foto img{width:100%;border-radius:16px;box-shadow:var(--ombra);display:block}
-  .origine-foto.giglio{display:flex;justify-content:center;background:linear-gradient(160deg,#fff,#F3EDFA);border-radius:16px;padding:24px;box-shadow:var(--ombra)}
-  .origine-foto.giglio img{width:auto;max-height:300px;box-shadow:none;border-radius:0}
+  .origine-foto img{width:100%;height:100%;min-height:340px;object-fit:cover;border-radius:16px;box-shadow:var(--ombra);display:block}
+  .origine-foto.giglio{display:flex;justify-content:center;align-items:center;align-self:center;background:linear-gradient(160deg,#fff,#F3EDFA);border-radius:16px;padding:24px;box-shadow:var(--ombra)}
+  .origine-foto.giglio img{width:auto;height:auto;min-height:0;max-height:320px;box-shadow:none;border-radius:0}
   .anno-badge{position:absolute;top:14px;left:14px;background:var(--oro);color:var(--viola-scuro);font-family:'Cinzel',serif;font-weight:900;font-size:1.05rem;padding:6px 14px;border-radius:999px;box-shadow:var(--ombra)}
   .origine-testo h3{color:var(--viola-scuro);font-size:1.55rem;margin-bottom:12px;font-family:'Cinzel',serif}
   .origine-testo p{margin-bottom:12px;color:#3a2a4e}
@@ -219,7 +219,7 @@
   <div class="sezione-titolo"><div class="kick">Alle radici della Viola</div><h2>Le Origini</h2></div>
 
   <article class="origine">
-    <div class="origine-foto"><img src="assets/img/hero.jpg" alt="Firenze" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"><span class="anno-badge">⚜ 1926</span></div>
+    <div class="origine-foto"><img src="assets/img/nascita.jpg" alt="Fiorentina 1931-1932, la prima squadra in Serie A" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"><span class="anno-badge">⚜ 1926</span></div>
     <div class="origine-testo">
       <h3>La nascita della Fiorentina</h3>
       <p class="lead">Negli anni Venti Firenze, culla del Rinascimento, non aveva ancora una grande squadra di calcio all'altezza del suo nome. A colmare quel vuoto fu il <b>Marchese Luigi Ridolfi Vay da Verrazzano</b>, sportivo e mecenate, che sognò un club capace di unire la città sotto un'unica bandiera.</p>
@@ -240,7 +240,7 @@
   </article>
 
   <article class="origine">
-    <div class="origine-foto"><img src="assets/img/i-simbolo.jpg" alt="Maglia viola della Fiorentina" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"><span class="anno-badge">💜 1929</span></div>
+    <div class="origine-foto"><img src="assets/img/e1956.jpg" alt="La Fiorentina in maglia viola (squadra 1955-56)" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"><span class="anno-badge">💜 1929</span></div>
     <div class="origine-testo">
       <h3>Il Viola</h3>
       <p class="lead">Pochi sanno che la Fiorentina non nacque viola. Alle origini vestiva di <b>bianco e rosso</b>, i colori della città: i primi tifosi la chiamavano <i>biancorossa</i>.</p>
@@ -493,7 +493,7 @@
   <p>Cento anni di storia, una sola fede.</p>
   <p style="margin-top:14px">Sito ufficiale: <a href="https://www.acffiorentina.com" target="_blank" rel="noopener">acffiorentina.com</a></p>
   <details class="crediti">
-    <summary>📷 Crediti immagini (24) — clicca per espandere</summary>
+    <summary>📷 Crediti immagini (25) — clicca per espandere</summary>
     <div class="crediti-lista">
         <div>• <b>Skyline di Firenze con la Cupola del Brunelleschi visto da Piazzale Michelangelo</b> — KL KL, CC BY-SA 3.0. <a href="https://commons.wikimedia.org/wiki/File:Panorama_of_Florence.jpg" target="_blank" rel="noopener">Wikimedia Commons</a></div>
         <div>• <b>Stadio Artemio Franchi di Firenze con la Torre di Maratona</b> — Sailko, CC BY 3.0. <a href="https://commons.wikimedia.org/wiki/File:Firenze,_stadio_artemio_franchi,_campo_da_gioco,_vista_sulla_torre_di_maratona_01.jpg" target="_blank" rel="noopener">Wikimedia Commons</a></div>
@@ -519,6 +519,7 @@
         <div>• <b>Tributo a Davide Astori</b> — Corvus, CC BY-SA 4.0 - libera. <a href="https://commons.wikimedia.org/wiki/File:Ciao_Capitano_Florence.jpg" target="_blank" rel="noopener">Wikimedia Commons</a></div>
         <div>• <b>Viola Park, centro sportivo della Fiorentina</b> — FacolCup, CC0. <a href="https://commons.wikimedia.org/wiki/File:Tifosi_della_finale_al_Viola_Park.jpg" target="_blank" rel="noopener">Wikimedia Commons</a></div>
         <div>• <b>Giglio di Firenze (giglio gotico antico)</b> — Horemhat, CC BY-SA 4.0. <a href="https://commons.wikimedia.org/wiki/File:Firenze_giglio_gotico_antico.svg" target="_blank" rel="noopener">Wikimedia Commons</a></div>
+        <div>• <b>Fiorentina 1931-1932 (prima formazione in Serie A)</b> — Autore sconosciuto, Pubblico Dominio. <a href="https://commons.wikimedia.org/wiki/File:Fiorentina_1931-1932.jpg" target="_blank" rel="noopener">Wikimedia Commons</a></div>
     </div>
   </details>
   <p class="mini">Pagina celebrativa amatoriale per il centenario, a scopo divulgativo per i tifosi.
