@@ -22,6 +22,10 @@ Tutte le immagini provengono da **Wikimedia Commons** con licenze libere (Creati
   Autore: Foto originale Olympia Photo; restauro di Danyele; fonte Guerin Sportivo (gennaio 1999) — Licenza: Pubblico Dominio (Italia, foto semplice - copyright scaduto)  
   https://commons.wikimedia.org/wiki/File:AC_Fiorentina_-_Kurt_Roland_Hamrin_(restored).jpg
 
+- **Miguel Montuori in maglia viola (Fiorentina, anni 50)**  
+  Autore: Autore ignoto — Licenza: PD-Italia (it.wikipedia)  
+  https://it.wikipedia.org/wiki/File:Miguel_Montuori.jpg
+
 - **Giancarlo De Sisti**  
   Autore: Edizioni Panini, album 1970-71 — Licenza: Pubblico Dominio (Italia, foto semplice - copyright scaduto dopo 20 anni)  
   https://commons.wikimedia.org/wiki/File:De_Sisti_alla_Fiorentina.jpg
@@ -37,6 +41,22 @@ Tutte le immagini provengono da **Wikimedia Commons** con licenze libere (Creati
 - **Giancarlo Antognoni (Fiorentina 1974-75)**  
   Autore: Figurina Panini Calciatori 1974-75 — Licenza: Pubblico Dominio  
   https://commons.wikimedia.org/wiki/File:Giancarlo_Antognoni_-_AC_Fiorentina_1974-75.jpg
+
+- **Roberto Baggio in maglia viola (Fiorentina 1985-86)**  
+  Autore: Autore sconosciuto — Licenza: PD-Italia (it.wikipedia)  
+  https://it.wikipedia.org/wiki/File:Roberto_Baggio_-_AC_Fiorentina_1985-1986.jpg
+
+- **Daniel Passarella (Fiorentina 1983, divisa da trasferta)**  
+  Autore: Foto Briguglio (Guerin Sportivo) — Licenza: PD-Italia (it.wikipedia)  
+  https://it.wikipedia.org/wiki/File:AC_Fiorentina_1983-01-30_Daniel_Passarella.jpg
+
+- **Gabriel Batistuta in maglia viola (Fiorentina 1996-97)**  
+  Autore: Autore sconosciuto — Licenza: PD-Italia (it.wikipedia)  
+  https://it.wikipedia.org/wiki/File:Gabriel_Batistuta_-_AC_Fiorentina_1996-97.jpg
+
+- **Manuel Rui Costa in maglia viola (Fiorentina 1999)**  
+  Autore: Claudio Villa / Grazia Neri — Licenza: PD-Italia (it.wikipedia)  
+  https://it.wikipedia.org/wiki/File:AC_Fiorentina_-_1999_-_Rui_Costa.jpg
 
 - **Francesco Toldo**  
   Autore: Claudio Villa / Allsport — Licenza: Pubblico Dominio (Italia, foto semplice oltre i 20 anni)  
@@ -101,6 +121,10 @@ Tutte le immagini provengono da **Wikimedia Commons** con licenze libere (Creati
 - **Fiorentina 1931-1932 (prima formazione in Serie A)**  
   Autore: Autore sconosciuto — Licenza: Pubblico Dominio  
   https://commons.wikimedia.org/wiki/File:Fiorentina_1931-1932.jpg
+
+- **Joe Barone, direttore generale, in sala stampa al Franchi (2022)**  
+  Autore: Andtrap (Wikimedia Commons) — Licenza: CC BY-SA 4.0  
+  https://commons.wikimedia.org/wiki/File:Nikola_Milenkovic_and_Joe_Barone.jpg
 
 
 _Pagina celebrativa amatoriale per il centenario dell'ACF Fiorentina (1926–2026). I marchi ACF Fiorentina e il Giglio appartengono ai legittimi proprietari._
