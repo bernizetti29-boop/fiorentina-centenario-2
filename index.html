@@ -179,12 +179,26 @@
   .crediti summary::-webkit-details-marker{display:none}
   .crediti-lista{font-size:.72rem;opacity:.85;line-height:1.7;padding:4px 0 14px}
   .crediti-lista a{color:var(--oro-chiaro)}
+  /* --- sezione Le Origini --- */
+  .origini .origine{display:grid;grid-template-columns:.85fr 1.15fr;gap:34px;align-items:center;margin-bottom:50px}
+  .origini .origine.inv .origine-foto{order:2}
+  .origine-foto{position:relative}
+  .origine-foto img{width:100%;border-radius:16px;box-shadow:var(--ombra);display:block}
+  .origine-foto.giglio{display:flex;justify-content:center;background:linear-gradient(160deg,#fff,#F3EDFA);border-radius:16px;padding:24px;box-shadow:var(--ombra)}
+  .origine-foto.giglio img{width:auto;max-height:300px;box-shadow:none;border-radius:0}
+  .anno-badge{position:absolute;top:14px;left:14px;background:var(--oro);color:var(--viola-scuro);font-family:'Cinzel',serif;font-weight:900;font-size:1.05rem;padding:6px 14px;border-radius:999px;box-shadow:var(--ombra)}
+  .origine-testo h3{color:var(--viola-scuro);font-size:1.55rem;margin-bottom:12px;font-family:'Cinzel',serif}
+  .origine-testo p{margin-bottom:12px;color:#3a2a4e}
+  .origine-testo p.lead::first-letter{font-family:'Cinzel',serif;font-size:3.1rem;font-weight:900;color:var(--viola);float:left;line-height:.8;margin:6px 10px 0 0}
+  .origine-testo blockquote{border-left:4px solid var(--oro);padding:6px 0 6px 18px;margin:16px 0 0;font-style:italic;color:var(--viola);font-size:1.05rem}
+  .origine-testo b{color:var(--viola)}
+  @media(max-width:760px){.origini .origine{grid-template-columns:1fr;gap:18px}.origini .origine.inv .origine-foto{order:0}}
 </style>
 </head>
 <body>
 
 <nav>
-  <a href="#storia">Cronostoria</a><a href="#trofei">Trofei</a><a href="#xi">Undici Leggende</a>
+  <a href="#origini">Origini</a><a href="#storia">Cronostoria</a><a href="#trofei">Trofei</a><a href="#xi">Undici Leggende</a>
   <a href="#campioni">Campioni</a><a href="#astori">Astori</a><a href="#dirigenza">Dirigenza</a><a href="#tifosi">Per i Tifosi</a>
 </nav>
 
@@ -199,6 +213,43 @@
   <div class="badge-cento">⚜ CENTENARIO · DAL 1926 AL 2026 ⚜</div>
   <div class="hint">👆 Tocca ogni scheda per scoprire le <b>curiosità</b> per i tifosi</div>
 </header>
+
+<!-- ============ LE ORIGINI ============ -->
+<section id="origini" class="origini">
+  <div class="sezione-titolo"><div class="kick">Alle radici della Viola</div><h2>Le Origini</h2></div>
+
+  <article class="origine">
+    <div class="origine-foto"><img src="assets/img/hero.jpg" alt="Firenze" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"><span class="anno-badge">⚜ 1926</span></div>
+    <div class="origine-testo">
+      <h3>La nascita della Fiorentina</h3>
+      <p class="lead">Negli anni Venti Firenze, culla del Rinascimento, non aveva ancora una grande squadra di calcio all'altezza del suo nome. A colmare quel vuoto fu il <b>Marchese Luigi Ridolfi Vay da Verrazzano</b>, sportivo e mecenate, che sognò un club capace di unire la città sotto un'unica bandiera.</p>
+      <p>Dopo un'assemblea preparatoria il <b>26 agosto 1926</b> in uno studio notarile, la nuova società nacque ufficialmente il <b>29 agosto 1926</b> dalla fusione di due realtà cittadine: il <b>Club Sportivo Firenze</b> e la <b>Palestra Ginnastica Fiorentina Libertas</b>. All'inizio fu iscritta come <i>Associazione Calcio Firenze</i>, ma già dal 1927 prese il nome destinato a diventare leggenda: <b>Fiorentina</b>.</p>
+      <p>Le prime partite si giocarono al campo di <b>Via Bellini</b>. E Ridolfi non si fermò: per la sua squadra volle anche uno stadio moderno, che pochi anni dopo avrebbe affidato al genio di Pier Luigi Nervi. Era l'inizio di cento anni di storia.</p>
+      <blockquote>«Dare a Firenze una squadra all'altezza della sua arte e della sua storia.»</blockquote>
+    </div>
+  </article>
+
+  <article class="origine inv">
+    <div class="origine-foto giglio"><img src="assets/img/giglio.png" alt="Giglio di Firenze" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.style.display='none'"></div>
+    <div class="origine-testo">
+      <h3>⚜ Il Giglio di Firenze</h3>
+      <p class="lead">Sul petto, fin dal primo giorno, la Fiorentina porta il <b>Giglio</b>: il simbolo che da secoli identifica Firenze. Non un fiore qualunque, ma il <b>giglio fiorentino</b>, <i>fiorito e bottonato</i> (con gli stami fra i petali), una particolarità araldica unica al mondo.</p>
+      <p>I suoi colori raccontano una storia antica. Il giglio <b>rosso su campo bianco</b> nasce nel <b>1251</b>: quando la fazione guelfa prese il controllo della città, invertì i colori dell'antico stemma ghibellino, che mostrava un giglio bianco su fondo rosso. Da allora il giglio rosso è l'emblema di Firenze.</p>
+      <p>C'è di più: secondo gli studiosi il "giglio" deriva in realtà dal <b>giaggiolo</b>, l'iris selvatico che fioriva numeroso nelle campagne attorno alla città. Indossare il giglio significa, per la Viola, portare sul cuore l'identità stessa di Firenze.</p>
+    </div>
+  </article>
+
+  <article class="origine">
+    <div class="origine-foto"><img src="assets/img/i-simbolo.jpg" alt="Maglia viola della Fiorentina" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"><span class="anno-badge">💜 1929</span></div>
+    <div class="origine-testo">
+      <h3>Il Viola</h3>
+      <p class="lead">Pochi sanno che la Fiorentina non nacque viola. Alle origini vestiva di <b>bianco e rosso</b>, i colori della città: i primi tifosi la chiamavano <i>biancorossa</i>.</p>
+      <p>Il celebre <b>viola</b> arrivò dal <b>1929</b>. La leggenda più romantica racconta di un lavaggio sbagliato delle maglie in un fiume, che le avrebbe tinte di porpora: una storia affascinante ma un <b>mito</b>, perché quel guasto avrebbe prodotto un rosa slavato, non il viola intenso che conosciamo.</p>
+      <p>La ricostruzione storica attribuisce la scelta proprio a <b>Ridolfi</b>, forse ispirato da un'amichevole del <b>1928</b> contro gli ungheresi dell'<b>Újpest</b>, che vestivano di bianco e viola. La Fiorentina scese in campo in viola per la prima volta il <b>22 settembre 1929</b>, in un'amichevole con la Roma a Via Bellini, con il giglio rosso sul petto.</p>
+      <p>Da quel giorno il <b>viola</b> è diventato il nome stesso della squadra e della sua gente: un colore unico nel calcio italiano, che racchiude un secolo di passione.</p>
+    </div>
+  </article>
+</section>
 
 <!-- ============ CRONOSTORIA ============ -->
 <section id="storia">
@@ -442,7 +493,7 @@
   <p>Cento anni di storia, una sola fede.</p>
   <p style="margin-top:14px">Sito ufficiale: <a href="https://www.acffiorentina.com" target="_blank" rel="noopener">acffiorentina.com</a></p>
   <details class="crediti">
-    <summary>📷 Crediti immagini (23) — clicca per espandere</summary>
+    <summary>📷 Crediti immagini (24) — clicca per espandere</summary>
     <div class="crediti-lista">
         <div>• <b>Skyline di Firenze con la Cupola del Brunelleschi visto da Piazzale Michelangelo</b> — KL KL, CC BY-SA 3.0. <a href="https://commons.wikimedia.org/wiki/File:Panorama_of_Florence.jpg" target="_blank" rel="noopener">Wikimedia Commons</a></div>
         <div>• <b>Stadio Artemio Franchi di Firenze con la Torre di Maratona</b> — Sailko, CC BY 3.0. <a href="https://commons.wikimedia.org/wiki/File:Firenze,_stadio_artemio_franchi,_campo_da_gioco,_vista_sulla_torre_di_maratona_01.jpg" target="_blank" rel="noopener">Wikimedia Commons</a></div>
@@ -467,6 +518,7 @@
         <div>• <b>Trofeo della Coppa delle Coppe (UEFA Cup Winners' Cup) - legame storico con la Fiorentina 1961</b> — Johnelwaq, CC BY-SA 4.0 - libera. <a href="https://commons.wikimedia.org/wiki/File:UEFA_Cup_Winners%27_Cup_trophy_Rangers.jpg" target="_blank" rel="noopener">Wikimedia Commons</a></div>
         <div>• <b>Tributo a Davide Astori</b> — Corvus, CC BY-SA 4.0 - libera. <a href="https://commons.wikimedia.org/wiki/File:Ciao_Capitano_Florence.jpg" target="_blank" rel="noopener">Wikimedia Commons</a></div>
         <div>• <b>Viola Park, centro sportivo della Fiorentina</b> — FacolCup, CC0. <a href="https://commons.wikimedia.org/wiki/File:Tifosi_della_finale_al_Viola_Park.jpg" target="_blank" rel="noopener">Wikimedia Commons</a></div>
+        <div>• <b>Giglio di Firenze (giglio gotico antico)</b> — Horemhat, CC BY-SA 4.0. <a href="https://commons.wikimedia.org/wiki/File:Firenze_giglio_gotico_antico.svg" target="_blank" rel="noopener">Wikimedia Commons</a></div>
     </div>
   </details>
   <p class="mini">Pagina celebrativa amatoriale per il centenario, a scopo divulgativo per i tifosi.

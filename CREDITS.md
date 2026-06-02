@@ -94,5 +94,9 @@ Tutte le immagini provengono da **Wikimedia Commons** con licenze libere (Creati
   Autore: FacolCup — Licenza: CC0  
   https://commons.wikimedia.org/wiki/File:Tifosi_della_finale_al_Viola_Park.jpg
 
+- **Giglio di Firenze (giglio gotico antico)**  
+  Autore: Horemhat (Wikimedia Commons) — Licenza: CC BY-SA 4.0  
+  https://commons.wikimedia.org/wiki/File:Firenze_giglio_gotico_antico.svg
+
 
 _Pagina celebrativa amatoriale per il centenario dell'ACF Fiorentina (1926–2026). I marchi ACF Fiorentina e il Giglio appartengono ai legittimi proprietari._
