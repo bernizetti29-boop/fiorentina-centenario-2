@@ -210,13 +210,44 @@
   .prop-body p{font-size:.92rem;color:#3a2a4e;margin-bottom:10px}
   .prop-body b{color:var(--viola)}
   .memoria-badge{position:absolute;top:12px;left:12px;background:var(--viola-scuro);color:var(--oro-chiaro);font-family:'Cinzel',serif;font-weight:700;font-size:.72rem;letter-spacing:1px;padding:5px 12px;border-radius:999px;box-shadow:var(--ombra);z-index:2}
+  /* --- sezione Viola Park --- */
+  .vp-hero{display:grid;grid-template-columns:1.05fr .95fr;gap:30px;align-items:center}
+  @media(max-width:820px){.vp-hero{grid-template-columns:1fr}}
+  .vp-figura{position:relative;border-radius:18px;overflow:hidden;box-shadow:var(--ombra);align-self:stretch}
+  .vp-figura img{width:100%;height:100%;min-height:300px;object-fit:cover;display:block}
+  .vp-figura figcaption{position:absolute;left:0;right:0;bottom:0;background:linear-gradient(0deg,rgba(36,20,51,.85),rgba(36,20,51,0));color:#fff;font-size:.76rem;padding:26px 16px 10px}
+  .vp-hero-testo h3{font-family:'Cinzel',serif;color:var(--viola-scuro);font-size:1.5rem;margin-bottom:12px}
+  .vp-hero-testo p{color:#3a2a4e;margin-bottom:10px}
+  .vp-hero-testo p.lead::first-letter{font-family:'Cinzel',serif;font-size:3rem;font-weight:900;color:var(--viola);float:left;line-height:.8;margin:6px 10px 0 0}
+  .vp-hero-testo b{color:var(--viola)}
+  .vp-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));gap:16px;margin:38px 0}
+  .vp-stat{background:#fff;border-radius:16px;padding:22px 14px;text-align:center;box-shadow:var(--ombra);border-bottom:4px solid var(--oro)}
+  .vp-stat:hover{transform:translateY(-5px)}
+  .vp-stat .ic{font-size:1.7rem}
+  .vp-stat .n{font-family:'Cinzel',serif;font-weight:900;font-size:2rem;color:var(--viola);line-height:1.05;margin-top:4px}
+  .vp-stat .n small{font-size:1rem;font-weight:700}
+  .vp-stat .l{font-size:.78rem;color:#6b5a7e;margin-top:6px;font-weight:600}
+  .vp-due{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-bottom:42px}
+  @media(max-width:760px){.vp-due{grid-template-columns:1fr}}
+  .vp-card{background:#fff;border-radius:16px;padding:24px;box-shadow:var(--ombra)}
+  .vp-card h3{color:var(--viola-scuro);font-size:1.05rem;margin-bottom:18px;text-align:center}
+  .vp-donut-wrap{display:flex;flex-direction:column;align-items:center;gap:16px}
+  .vp-legend{display:flex;gap:18px;flex-wrap:wrap;justify-content:center;font-size:.84rem}
+  .vp-legend span{display:inline-flex;align-items:center;gap:7px;color:#4a3a5c;font-weight:600}
+  .vp-legend i{width:13px;height:13px;border-radius:3px;display:inline-block}
+  .vp-crono{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+  @media(max-width:680px){.vp-crono{grid-template-columns:1fr 1fr}}
+  .vp-tappa{background:#fff;border-radius:14px;padding:18px 14px;box-shadow:var(--ombra);border-top:3px solid var(--viola-chiaro);text-align:center}
+  .vp-tappa .ev{font-size:1.6rem}
+  .vp-tappa .data{font-family:'Cinzel',serif;color:var(--oro);font-weight:700;font-size:.92rem;margin:4px 0 2px}
+  .vp-tappa .tx{font-size:.82rem;color:#4a3a5c;line-height:1.45}
 </style>
 </head>
 <body>
 
 <nav>
   <a href="#origini">Origini</a><a href="#storia">Cronostoria</a><a href="#trofei">Trofei</a><a href="#xi">Undici Leggende</a>
-  <a href="#campioni">Campioni</a><a href="#astori">Astori</a><a href="#proprieta">Era Commisso</a><a href="#dirigenza">Dirigenza</a><a href="#tifosi">Per i Tifosi</a>
+  <a href="#campioni">Campioni</a><a href="#astori">Astori</a><a href="#proprieta">Era Commisso</a><a href="#dirigenza">Dirigenza</a><a href="#tifosi">Per i Tifosi</a><a href="#viola-park">Viola Park</a>
 </nav>
 
 <header class="hero">
@@ -527,7 +558,66 @@
     <div class="info-card clic" data-k="i-inno"><div class="ico">🎶</div><h3>L'Inno</h3><p>La storica <b>«Canzone Viola»</b> di Narciso Parigi.</p></div>
     <div class="info-card clic" data-k="i-curva"><div class="ico">🔥</div><h3>La Curva</h3><p>La <b>Curva Fiesole</b>: l'anima del tifo viola.</p></div>
     <div class="info-card clic" data-k="i-rivalita"><div class="ico">⚔️</div><h3>Le Rivalità</h3><p>Con la <b>Juventus</b> e il <b>derby dell'Appennino</b> col Bologna.</p></div>
-    <div class="info-card clic" data-k="i-violapark"><div class="ico">🌳</div><h3>Il Viola Park</h3><p>Il modernissimo centro sportivo voluto da Commisso.</p></div>
+  </div>
+</section>
+
+<!-- ============ VIOLA PARK ============ -->
+<section id="viola-park" class="alt">
+  <div class="sezione-titolo"><div class="kick">La nuova casa della Viola</div><h2>Il Viola Park</h2></div>
+
+  <figure class="vp-hero" style="margin:0 0 8px">
+    <div class="vp-figura">
+      <img src="assets/img/vp-tribuna.jpg" alt="La tribuna del nuovo stadio del Viola Park gremita di tifosi viola" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('.vp-figura').style.display='none'">
+      <figcaption>La tribuna del Viola Park gremita di tifosi · © FacolCup (CC0)</figcaption>
+    </div>
+    <div class="vp-hero-testo">
+      <h3>Il centro sportivo più moderno d'Europa</h3>
+      <p class="lead">Il <b>Rocco B. Commisso Viola Park</b>, a <b>Bagno a Ripoli</b> alle porte di Firenze, è la nuova casa della Fiorentina: <b>31 ettari</b> che per la prima volta riuniscono in un solo luogo la prima squadra maschile, quella femminile e tutto il settore giovanile.</p>
+      <p>Voluto e finanziato interamente da <b>Rocco Commisso</b> e seguito passo dopo passo da <b>Joe Barone</b>, è stato progettato dall'architetto <b>Marco Casamonti</b> (Studio Archea) e inaugurato l'<b>11 ottobre 2023</b>, alla presenza dei vertici di FIFA, UEFA e CONI.</p>
+      <p>Dodici campi, due stadi, palestre, centro medico, foresteria e uffici: ogni giorno lo vivono circa <b>900 persone</b>.</p>
+    </div>
+  </figure>
+
+  <div class="vp-stats">
+    <div class="vp-stat"><div class="ic">🌳</div><div class="n">31<small> ha</small></div><div class="l">Superficie totale</div></div>
+    <div class="vp-stat"><div class="ic">⚽</div><div class="n">12</div><div class="l">Campi da gioco</div></div>
+    <div class="vp-stat"><div class="ic">🏟️</div><div class="n">2</div><div class="l">Stadi · 4.500 posti</div></div>
+    <div class="vp-stat"><div class="ic">🏢</div><div class="n">12</div><div class="l">Edifici</div></div>
+    <div class="vp-stat"><div class="ic">💶</div><div class="n">~120<small> M€</small></div><div class="l">Investimento privato</div></div>
+    <div class="vp-stat"><div class="ic">📅</div><div class="n">2023</div><div class="l">Inaugurazione</div></div>
+  </div>
+
+  <div class="vp-due">
+    <div class="vp-card">
+      <h3>💶 Il costo dell'opera</h3>
+      <div class="barra"><div class="et">Preventivo (2019)</div><div class="track"><div class="fill" style="width:58%">70 M€</div></div></div>
+      <div class="barra"><div class="et">Spesa finale</div><div class="track"><div class="fill oro" style="width:93%">~112 M€</div></div></div>
+      <p class="nota-piccola" style="text-align:center">Interamente capitali privati, più <b>7-10 M€</b> l'anno di manutenzione.</p>
+    </div>
+    <div class="vp-card">
+      <h3>⚽ I 12 campi regolamentari</h3>
+      <div class="vp-donut-wrap">
+        <svg viewBox="0 0 140 140" width="150" height="150" role="img" aria-label="Dodici campi: sette in erba naturale, cinque in manto ibrido">
+          <circle cx="70" cy="70" r="54" fill="none" stroke="#EEE6F7" stroke-width="20"/>
+          <circle cx="70" cy="70" r="54" fill="none" stroke="#592C82" stroke-width="20" stroke-dasharray="197.9 141.4" transform="rotate(-90 70 70)"/>
+          <circle cx="70" cy="70" r="54" fill="none" stroke="#C9A227" stroke-width="20" stroke-dasharray="141.4 197.9" stroke-dashoffset="-197.9" transform="rotate(-90 70 70)"/>
+          <text x="70" y="66" text-anchor="middle" font-family="Cinzel,serif" font-weight="900" font-size="28" fill="#592C82">12</text>
+          <text x="70" y="86" text-anchor="middle" font-size="11" fill="#6b5a7e">campi</text>
+        </svg>
+        <div class="vp-legend">
+          <span><i style="background:#592C82"></i> 7 in erba naturale</span>
+          <span><i style="background:#C9A227"></i> 5 in manto ibrido</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h3 style="text-align:center;color:var(--viola-scuro);font-family:'Cinzel',serif;margin-bottom:18px">🏗️ Dal cantiere all'inaugurazione</h3>
+  <div class="vp-crono">
+    <div class="vp-tappa"><div class="ev">🧾</div><div class="data">2019</div><div class="tx">Acquisto dell'area e progetto (preventivo 70 M€)</div></div>
+    <div class="vp-tappa"><div class="ev">🏗️</div><div class="data">5 feb 2021</div><div class="tx">Apertura del cantiere a Bagno a Ripoli</div></div>
+    <div class="vp-tappa"><div class="ev">🔑</div><div class="data">4 ago 2023</div><div class="tx">Fine dei lavori</div></div>
+    <div class="vp-tappa"><div class="ev">🎉</div><div class="data">11 ott 2023</div><div class="tx">Inaugurazione ufficiale</div></div>
   </div>
 </section>
 

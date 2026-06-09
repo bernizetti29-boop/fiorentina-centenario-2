@@ -31,6 +31,16 @@ Esistono **due copie indipendenti**:
 - Nessun toolchain richiesto per modificare/visualizzare la pagina.
 
 ## Registro operazioni
+- **2026-06-09 — Claude (agente)** — Terzo intervento (autonomo, solo su `-2`): aggiunta una **sezione
+  dedicata "Il Viola Park"** in fondo (dopo "Per i Tifosi", con voce di menu). Contiene: foto del
+  risultato finale (tribuna gremita, FacolCup CC0), testo introduttivo, **6 card statistiche** (31 ettari,
+  12 campi, 2 stadi/4.500 posti, 12 edifici, ~120 M€, 2023), un **grafico a barre** sul costo
+  (preventivo 70 M€ → spesa finale ~112 M€), un **grafico a ciambella** sui 12 campi (7 naturali / 5
+  ibridi) e una **timeline del cantiere** (2019 progetto → 5 feb 2021 inizio lavori → 4 ago 2023 fine
+  lavori → 11 ott 2023 inaugurazione). Dati verificati su Wikipedia IT (progetto arch. Marco Casamonti,
+  Studio Archea). NOTA: su Wikimedia Commons **non esistono foto libere del cantiere**, quindi la fase di
+  costruzione è rappresentata dalla timeline. Rimossa la vecchia card "Il Viola Park" dalla griglia
+  "Per i Tifosi" (ora superflua). Verifica visiva fatta con screenshot headless (Playwright).
 - **2026-06-09 — Claude (agente)** — Secondo intervento (sempre solo su `-2`): (1) aggiunta foto
   all'allenatore **Fulvio Bernardini** (ritratto 1974, nessun club mostrato — su Commons non esiste
   una sua foto in maglia/contesto Fiorentina); per **Vincenzo Italiano** (su
