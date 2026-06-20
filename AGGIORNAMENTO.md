@@ -2,7 +2,7 @@
 
 > Fonte di verità sullo stato del progetto. Leggere all'inizio e aggiornare alla fine di ogni intervento.
 
-**Ultimo aggiornamento:** 2026-06-09
+**Ultimo aggiornamento:** 2026-06-19
 
 ## Cos'è
 Pagina celebrativa a file singolo per il **centenario della Fiorentina (1926–2026)**.
@@ -20,6 +20,8 @@ schede di approfondimento (modali) in un oggetto JavaScript `CUR`, e immagini in
 Esistono **due copie indipendenti**:
 - `~/fiorentina-centenario` = **ORIGINALE**, quello puntato dal **QR code** (GitHub Pages). 🔒 **NON va MAI modificato.**
 - `~/fiorentina-centenario-2` (questa) = **copia di lavoro ATTIVA**. **Tutte** le modifiche vanno fatte QUI.
+  Dal 2026-06-19 è anch'essa **pubblica** e pubblicata su GitHub Pages:
+  https://bernizetti29-boop.github.io/fiorentina-centenario-2/ (QR: `qr-seconda-versione.png`).
 
 ## Come si avvia
 È una pagina statica: basta aprire `index.html` in un browser
@@ -31,6 +33,64 @@ Esistono **due copie indipendenti**:
 - Nessun toolchain richiesto per modificare/visualizzare la pagina.
 
 ## Registro operazioni
+- **2026-06-20 — Claude (agente)** — Sezione **Viola Park**: aggiunto un pannello descrittivo in evidenza
+  (`.vp-gioiello`, grafica viola/oro con giglio decorativo) che amplia il racconto sul Viola Park come
+  **gioiello architettonico** e **uno dei centri sportivi più moderni d'Europa** (progetto Studio Archea /
+  Marco Casamonti, >120 M€ di capitali privati, modello ammirato nel mondo), sottolineando che è oggi uno
+  degli elementi che rendono la Fiorentina invidiata in Europa e nel mondo. Posizionato subito sotto la
+  presentazione, prima delle statistiche. Verifica visiva headless. NOTA: non ancora pubblicato online.
+- **2026-06-20 — Claude (agente)** — Ampliati contenuti (dati verificati su Wikipedia, incrociati su più fonti
+  da agenti di ricerca): (1) **Albo d'Oro** — aggiunti due blocchi di card cliccabili: **Settore Giovanile**
+  (Campionato Primavera ×4 [1971·1980·1983·2026], Coppa Italia Primavera ×8, Supercoppa Primavera ×3,
+  Torneo di Viareggio ×9) e **Fiorentina Femminile** (Scudetto 2016-17, Coppa Italia ×2 [2016-17·2017-18],
+  Supercoppa 2018), ognuna con scheda di approfondimento (7 nuove voci `CUR`). Nuovo CSS `.albo-sub`,
+  `.trofeo.giov/.femm`. (2) **Scheda Stadio Franchi**: +3 fatti (capienza ~43.000, scale elicoidali e vincolo
+  1983, restyling 2024 per il centenario). (3) **Scheda Curva Fiesole**: +2 fatti (curva nord, spostamento in
+  Curva Ferrovia dal 2024; gemellaggio col Verona 1976 e Torino). (4) **Sezione Viola Park**: nuovo blocco con
+  i due stadi interni (Curva Fiesole ~3.000 / Davide Astori ~1.500) e "una casa per tutta la Viola"
+  (maschile+femminile+giovanili, foresteria, ecc.). `CUR` rivalidato (JSON ok, 64 voci, nessuna card orfana).
+  Verifica visiva headless. NOTA: non ancora pubblicato online.
+- **2026-06-20 — Claude (agente)** — **Vincenzo Italiano: rimossa la foto.** Verificato su Wikimedia Commons
+  che NON esiste alcuna foto libera di Italiano **da allenatore** senza un'altra società: esistono solo la
+  foto 2024 in contesto Bologna e foto da giocatore del Padova (a figura intera ma altra società). Su
+  indicazione dell'utente ("se non c'è una foto da allenatore, non mettere immagini"), tolta del tutto la foto
+  dalla scheda `c-italiano` (eliminato `assets/img/c-italiano.jpg`, rimossi `img`/`credit` e la voce dai
+  crediti). Conteggio crediti footer → 32. CUR rivalidato. NOTA: non ancora pubblicato online.
+- **2026-06-20 — Claude (agente)** — Revisione foto di alcune persone (ricerca su Wikimedia Commons, solo
+  immagini libere): (1) **Cecchi Gori** — aggiunta foto che prima mancava: `assets/img/p-cecchigori.png`
+  (Vittorio Cecchi Gori, Nastro d'Argento 1989, Pubblico Dominio); collegata al modale `p-cecchigori` e
+  aggiunta ai crediti. (2) **Ujfalusi** — su scelta utente **rimossa del tutto** la foto: era in maglia
+  Galatasaró (partita contro la Fiorentina), e su Commons NON esiste alcuna foto libera in maglia viola;
+  eliminato il file `assets/img/l-ujfalusi.jpg`, tolti `img`/`credit` dal modale e la voce dai crediti.
+  Conteggio crediti footer aggiornato (resta 33). (3) **Italiano, Prandelli, Della Valle** — verificato che
+  le foto attuali sono GIÀ le migliori libere disponibili (Prandelli è addirittura di Parma-Fiorentina 2008,
+  vero contesto viola): nessun cambio. Oggetto dati `CUR` rivalidato (JSON ok, 57 voci). NOTA: non ancora
+  pubblicato online.
+- **2026-06-20 — Claude (agente)** — Sostituito il giglio sotto ogni titolo di sezione: la regola CSS
+  `.sezione-titolo h2::after` usava il `⚜` testuale (U+269C, reso "fatto male"); ora usa l'emoji **`⚜️`**
+  (coerente con i gigli dell'hero). Vale per tutte le sezioni. NOTA: non ancora pubblicato online. Restano in
+  versione testuale alcuni piccoli `⚜` inline (es. "⚜ Modulo 4-3-3", "⚜ Trofei per competizione", eyebrow
+  modali): non toccati perché non richiesti.
+- **2026-06-20 — Claude (agente)** — Uniformati i gigli dell'hero: i due ai lati del badge "CENTENARIO ·
+  DAL 1926 AL 2026" erano in versione testuale `⚜` (U+269C) e ora sono in versione **emoji `⚜️`**
+  (U+269C+U+FE0F), identica al giglio sotto "A.C.F. Fiorentina" (`giglio-grande`). Nell'hero non restano
+  altri gigli da convertire. NOTA: non ancora pubblicato online.
+- **2026-06-20 — Claude (agente)** — Nell'hero spostata la scritta "👆 Tocca ogni scheda…": prima appariva
+  affiancata al badge "CENTENARIO · DAL 1926 AL 2026" (stessa riga, per via di `display:inline-block`), ora è
+  su una **riga dedicata sotto** il badge (incapsulati entrambi in un `div` blocco). Verifica visiva headless.
+  NOTA: non ancora pubblicata online.
+- **2026-06-20 — Claude (agente)** — Rimosso dall'hero (pagina d'apertura) il **giglio ⚜ grande sfocato di
+  sfondo** (l'elemento `.giglio-bg`), su richiesta dell'utente. Lo sfondo dell'hero ora mostra solo lo
+  skyline di Firenze; restano il piccolo giglio nitido sopra gli anni e il resto invariato. Verifica visiva
+  con screenshot headless. NOTA: modifica non ancora pubblicata online (serve commit + push).
+- **2026-06-19 — Claude (agente)** — **PUBBLICATA ONLINE la seconda versione** (su richiesta utente, per
+  poterla inviare a una persona che deve valutarla): reso **pubblico** il repo `fiorentina-centenario-2` e
+  attivato **GitHub Pages** (branch `main`, root). Sito raggiungibile da chiunque a
+  **https://bernizetti29-boop.github.io/fiorentina-centenario-2/** (verificato HTTP 200, titolo corretto).
+  Rigenerato `qr-seconda-versione.png` (QR viola #5a1a6e con didascalia "Seconda Versione") in modo che ora
+  punti all'**URL pubblico** (non più al file locale). Link e QR sono condivisibili su WhatsApp/email.
+- **2026-06-19 — Claude (agente)** — [superato dalla riga sopra] Prima generato un QR solo locale che
+  puntava a `file://.../index.html`; sostituito perché non raggiungibile da altri dispositivi.
 - **2026-06-09 — Claude (agente)** — Terzo intervento (autonomo, solo su `-2`): aggiunta una **sezione
   dedicata "Il Viola Park"** in fondo (dopo "Per i Tifosi", con voce di menu). Contiene: foto del
   risultato finale (tribuna gremita, FacolCup CC0), testo introduttivo, **6 card statistiche** (31 ettari,
