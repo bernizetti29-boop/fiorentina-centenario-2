@@ -33,6 +33,12 @@ Esistono **due copie indipendenti**:
 - Nessun toolchain richiesto per modificare/visualizzare la pagina.
 
 ## Registro operazioni
+- **2026-06-20 — Claude (agente)** — **PUBBLICATE ONLINE tutte le modifiche** del giorno (commit `3fcffc5`
+  su `main`, push su GitHub). Verificato che il sito pubblico è aggiornato:
+  https://bernizetti29-boop.github.io/fiorentina-centenario-2/ (trovati i nuovi contenuti "Settore Giovanile"
+  e pannello Viola Park). Il sito è ospitato da **GitHub Pages**, quindi accessibile 24/7 anche con il
+  computer dell'utente spento e offline. Il QR da consegnare alla giuria è `qr-seconda-versione.png` (punta a
+  quell'URL pubblico). Le note "non ancora pubblicato online" delle righe precedenti sono quindi superate.
 - **2026-06-20 — Claude (agente)** — Sezione **Viola Park**: aggiunto un pannello descrittivo in evidenza
   (`.vp-gioiello`, grafica viola/oro con giglio decorativo) che amplia il racconto sul Viola Park come
   **gioiello architettonico** e **uno dei centri sportivi più moderni d'Europa** (progetto Studio Archea /
